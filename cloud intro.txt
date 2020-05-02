@@ -1,0 +1,12 @@
+ What is cloud computing?
+ Cloud computing is a type of computing which relies on shared computing resources.It is a combination 
+ of software and hardware based computing resources delivered as a network.
+
+
+ Advantages of cloud computing
+ 1)There is unlimited  storage
+ 2)Easy access to information
+ 3)Easier scale of services
+
+
+
