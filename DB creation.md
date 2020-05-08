@@ -25,7 +25,7 @@ One of the services we studied today is database.One can create database either 
 we have to set a db instance identifier and a username and password.It has a option of storage type where you can allocate size as required.
 database port at default is selected i.e., 3306, and create the database.The endpoint and port in the connectivity and security options is the url.Hence, you can setup new connection to MySQL Workbench.
 
-<h4> Steps to create RDS Database instance </h4>
+<h3> Steps to create RDS Database instance </h3>
 
 1. Sign in to AWS Console and open Amazone RDS Console.
 
@@ -48,9 +48,9 @@ database port at default is selected i.e., 3306, and create the database.The end
 
 7.Next choose Dev/Test.
 
-8. In the setting choose:
+8. In the setting choose the following:
 
-DB instance identifier - give name to your database
+database instance identifier - give name to your database
 
 Master Username :give username
 
@@ -61,7 +61,7 @@ Confirm password : Retype the password
 ![](images/step4.png)
 
 
-After selecting all the options, press Create database . This will create your RDS in AWS.
+Now press Create database .This will create your RDS in AWS.
 
 ![](images/step5.png)
 
