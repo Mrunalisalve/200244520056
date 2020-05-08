@@ -35,6 +35,6 @@ database port at default is selected i.e., 3306, and create the database.The end
 
 4. Chosse Create database.
 
-![](imgages/step1.png)
+![](images/step1.png)
 
 
