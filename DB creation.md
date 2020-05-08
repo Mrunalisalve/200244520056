@@ -37,4 +37,25 @@ database port at default is selected i.e., 3306, and create the database.The end
 
 ![](images/step1.png)
 
+5.On the Create database page, choose either standard create or easy create where the latter is the aws one,where some options are selected by default. 
+
+![](images/step2.png)
+
+
+6.In Engine Options choose the the engine you want to create database of.
+
+7.In the Templete section , choose Dev/Test.
+
+DB instance identifier - give name to your db
+
+Master Username - give username
+
+Auto generate a password - Dissable the option
+
+Master password - Create a password
+
+Confirm password - Retype the password
+
+After selecting all the options needed hit Create database . This will create your RDS in AWS.
+
 
