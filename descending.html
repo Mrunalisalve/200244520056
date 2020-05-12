@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to sort the array in descending order.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var mar = ["Thor", "Spiderman", "Captain", "Ironman", "Hulk"];
+document.getElementById("demo").innerHTML = mar;
+
+function myFunction() {
+  mar.sort();
+  mar.reverse();
+  document.getElementById("demo").innerHTML = mar;
+}
+</script>
+
+</body>
+</html>
