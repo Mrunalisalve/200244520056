@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>the cube and square is</p>
+ <p id="cube"></p>
+ <p id="square"></p>
+<script>
+class Math
+{
+    static Cube(x)
+    {
+      return x*x*x;
+      
+    }
+    static Square(x)
+    {
+        return x*x;
+      
+    }
+   
+}
+
+document.getElementById("cube").innerHTML ="<b>Cube of 10 is:</b>"+ Math.Cube(10);
+document.getElementById("square").innerHTML ="<b>Square of 12 is:</b>"+ Math.Square(12);
+</script>
+</body>
+</html>
