@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+<script>
+class Account
+{
+    constructor(name,balance)
+    {
+        this.name=name;
+        this.balance=50000;
+    }
+
+    deposit(x)
+    {
+      
+      this.balance=this.balance+x;
+    }
+    display()
+    {
+        return "<b>Name:</b>"+" "+this.name+"</br></br>"+ "<b>Initial Balance </b> : 50000 and after deposited 7500 balance: "+ " "+  this.balance;
+    }
+}
+obj1 =new Account("xyz");
+obj1.deposit(7500);
+document.getElementById("demo").innerHTML = obj1.display();
+</script>
+</body>
+</html>

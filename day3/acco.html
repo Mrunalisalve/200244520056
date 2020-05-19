@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+class account
+{
+    constructor(name,balance)
+    {
+        this.name=name;
+        this.balance=1000;
+    }
+
+    deposit(x)
+    {
+      
+      this.balance=this.balance+x;
+    }
+
+}
+class currentAccount extends account
+{
+    constructor(name,balance)
+    {
+    super(name,balance);
+    }
+     withdraw(a)
+     {
+         this.balance=this.balance-a;
+     }
+     show()
+    {
+        return "<b>Name is</b>"+" "+this.name+"</br></br>"+"<b>Total balance</b> is 1000 and after withdraw balance is:"+this.balance;
+    }
+}
+obj =new currentAccount("Mrunali");
+obj.deposit(1000);
+obj.withdraw(500);
+document.getElementById("demo").innerHTML = obj.show();
+
+ </script>
+ </body>
+</html>
