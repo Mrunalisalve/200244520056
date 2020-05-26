@@ -1,0 +1,15 @@
+<!DOcTYPE html>
+<html>
+<body>
+        <h2>Self invoked functions</h2>
+        <p id="sq"></p>
+        <script>
+            var square=(function(i)
+			{
+                return i*i;
+            })(15);
+                document.getElementById("sq").innerHTML=square;
+        
+</script>
+</body>
+</html>

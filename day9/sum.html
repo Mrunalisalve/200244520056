@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+        <h3>sum of numbers irrespective of the arguments passed in function call</h3>
+        <p id="sm"></p>
+        <script>
+		
+            function Sum()
+			{
+            var i;
+            var sum=0;
+            for(i=0;i<arguments.length;i++)
+            {
+                sum+=arguments[i];
+            }
+            return sum;
+        }
+        document.getElementById("sm").innerHTML=Sum(10,50,60,100);
+		
+</script>
+</body>
+</html>
