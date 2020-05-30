@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+num1 <input type="text" id="demo" name="num1"/><br><br>
+num2 <input type="text" id="demo1" name="num1"/><br><br>
+result <input type="text" id="result" name="result"/><br>
+<br>
+<input type="radio" name="r" onclick="add()"/>add <br>
+<input type="radio" name="r" onclick="sub()"/>sub
+
+<script>
+function add() 
+{
+var a= parseInt(document.getElementById("demo").value);
+var b= parseInt(document.getElementById("demo1").value);
+var c=a+b;
+document.getElementById("result").value=c;
+}
+
+function sub()
+{
+var a= parseInt(document.getElementById("demo").value);
+var b= parseInt(document.getElementById("demo1").value);
+var c=a-b;
+document.getElementById("result").value=c;
+}
+
+</script>
+</body>
+</html>

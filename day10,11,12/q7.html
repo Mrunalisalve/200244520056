@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<style>
+p{background-color:blue}
+</style>
+
+<p> The first line</p>
+<p> The next one </p>
+<p> The last line </p>
+
+<button onclick="count()">click</button>
+
+<h3 id="p1"></h3>
+<script>
+
+function count()
+{
+var p= document.getElementsByTagName("p");
+document.getElementById("p1").innerHTML=p.length;
+}
+
+</script>
+</body>
+</html> 
