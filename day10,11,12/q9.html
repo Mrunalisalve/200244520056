@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h4>Onchange event display using span tag </h4>
+<br>
+
+<input type="text" id="demo" placeholder="enter text" onchange="change()"> 
+
+<strong>span tag : </strong>  <span id="demo1"></span>
+
+<script>
+function change()
+{
+document.getElementById("demo1").innerHTML= document.getElementById("demo").value;
+}
+
+</script>
+</body>
+</html>
