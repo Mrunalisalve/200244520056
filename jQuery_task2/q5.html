@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").hide("slow", function(){
+      alert("done with hiding");
+    });
+  });
+});
+</script>
+</head>
+<body style="background-color:lightgrey; color:black; text-align:center">
+
+<button>Hide</button>
+
+<p>The pandemic will end soon!</p>
+
+</body>
+</html>
