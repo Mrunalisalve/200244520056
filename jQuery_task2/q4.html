@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("button").click(function(){
+$("#demo").animate({
+                        
+       height: '450px',
+       width: '550px'
+                    },8000);
+                });
+            });
+</script>
+</head>
+<body style="background-color: lightgrey;"><center>
+        <img src="nature.jpg" id="demo" height="100px" width="100px"><br><br>
+        <button>click me!</button>
+        <h3>On clicking, image size will slowly increase</h3></center>
+</body>
+</html>
