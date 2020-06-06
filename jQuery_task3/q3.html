@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#rd1").click(function(){
+                $("ol").append("<li>APPLE</li>")
+            });
+            $("#rd2").click(function(){
+                $("ol").append("<li>WATERMELON</li>")
+            });
+            $("#rd3").click(function(){
+                $("ol").append("<li>ORANGE</li>")
+            });
+        })
+    </script>
+    <body style="background-color: lightgreen;">
+        <ol>
+            <li>MANGO</li>
+            <li>APPLE</li>
+            <li>BANANA</li>
+        </ol>
+        APPLE:<input type="radio" id="rd1" value="apple">
+        WATERMELON:<input type="radio" id="rd2" value="watermelon">
+        ORANGE:<input type="radio" id="rd3" value="orange">
+    </body>
+</html>

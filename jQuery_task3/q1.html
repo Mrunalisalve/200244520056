@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    var x= $("#txt1").val();
+                    $("#txt2").val(x);
+                    
+                });
+            });
+        </script>
+    </head>
+    <body style="background-color: grey;">
+        <center>Name: <input type="text" div id="txt1" name="a" height="100px" width="100px"><br><br>
+                Copied name:<input type="text" id="txt2" name="a" height="100px" width="100px"><br><br>
+
+        <button>click me to copy data</button></center>
+    </body>
+</html>

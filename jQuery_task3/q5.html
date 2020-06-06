@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".rd1").click(function(){
+                    $("#text").css("color","red");
+                });
+                $(".rd2").click(function(){
+                    $("#text").css("color","green");
+                });
+                $(".rd3").click(function(){
+                    $("#text").css("color","yellow");
+                });
+            });
+        </script>
+    </head>
+    <body style="background-color: lightgrey;">
+        <br>NAME:<input id="text" name="nm"/><br><br>
+        RED:<input class="rd1" name="radio" type="radio">
+        GREEN:<input class="rd2" name="radio" type="radio">
+        BLUE:<input class="rd3" name="radio" type="radio">
+        
+    </body>
+</html>
